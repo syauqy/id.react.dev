@@ -14,7 +14,7 @@ Jika Anda ingin membuat aplikasi baru atau situs web baru dengan menggunakan Rea
 
 </Note>
 
-## _Framework_ React Berkelas Produksi {/*production-grade-react-frameworks*/}
+## Framework React Berkelas Produksi {/*production-grade-react-frameworks*/}
 
 ### Next.js {/*nextjs*/}
 
@@ -65,7 +65,7 @@ Expo dikelola oleh [Expo (perusahaan)](https://expo.dev/about). Anda dapat Membu
 
 <DeepDive>
 
-#### Dapatkah saya menggunakan React tanpa menggunakan _framework_? {/*can-i-use-react-without-a-framework*/}
+#### Dapatkah saya menggunakan React tanpa menggunakan framework? {/*can-i-use-react-without-a-framework*/}
 
 Anda dapat menggunakan React tanpa menggunakan _framework_--begitupun Anda dapat [menggunakan React untuk sebagian dari halaman proyek Anda.](/learn/add-react-to-an-existing-project#using-react-for-a-part-of-your-existing-page) **Namun, jika Anda ingin membuat aplikasi atau situs baru sepenuhnya menggunakan React, kami merekomendasikan Anda untuk menggunakan _framework_.**
 
@@ -80,12 +80,12 @@ Meskipun Anda tidak membutuhkan fungsi _routing_ maupun pengambilan data di awal
 Jika Anda masih belum yakin, atau aplikasi Anda memiliki kendala tidak umum yang tidak dapat dilayani dengan baik oleh _framework_ ini dan Anda ingin membuat pengaturan sendiri, kami tidak dapat menghentikan Anda--coba saja! Gunakan `react` dan `react-dom` dari npm, siapkan _bundler_ proses _build_ kostum Anda seperti [Vite](https://vitejs.dev/) atau [Parcel](https://parceljs.org/), dan peralatan lainnya sesuai kebutuhan Anda untuk _routing_, pembuatan halaman statis atau _server-side rendering_, dan lainnya.
 </DeepDive>
 
-## _Framework_ React terbaru {/*bleeding-edge-react-frameworks*/}
+## Framework React terbaru {/*bleeding-edge-react-frameworks*/}
 Selama kami melakukan eksplorasi untuk meningkatkan kemampuan dan kualitas React, kami menyadari bahwa dengan mengintegrasikan React lebih dekat dengan berbagai macam _framework_ (khususnya dengan teknologi _routing_, _bundling_, dan _server_), hal tersebut merupakan kesempatan terbesar kami untuk membantu pengguna React untuk dapat membuat aplikasi yang lebih baik. Tim Next.js setuju untuk berkolaborasi dengan kami dalam riset, pengembangan, integrasi, serta pengujian fitur-fitur React terkini seperti [React Server Components.](/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#react-server-components)
 
 Setiap hari, fitur-fitur ini semakin dekat untuk menjadi teknologi yang siap digunakan di tingkat _production_, dan kami telah berbicara dengan pengembang _bundler_ dan _framework_ lainnya untuk dapat mengintergrasikan hal tersebut. Kami berharap bahwa dalam satu atau dua tahun, seluruh _framework_ yang terdaftar pada halaman ini akan mendapatkan dukungan penuh dari fitur - fitur ini. (Jika Anda adalah pencipta _framework_ dan tertarik untuk berkerja sama dengan kami untuk bereksperimen dengan fitur - fitur ini, mohon untuk menghubungi kami!)
 
-### _Router_ Aplikasi Next.js {/*nextjs-app-router*/}
+### Router Aplikasi Next.js {/*nextjs-app-router*/}
 
 **[_Router_ Aplikasi Next.js](https://beta.nextjs.org/docs/getting-started) adalah sebuah desain baru dari Next.js API yang bertujuan untuk memenuhi visi tim React mengenai arsitektur aplikasi _full-stack_.** Hal ini dapat membantu Anda untuk mengambil data pada komponen asinkron yang berjalan pada _server_ atau saat waktu _build_.
 
@@ -98,7 +98,7 @@ _Router_ Aplikasi Next.js **saat ini dalam fase _beta_ dan tidak direkomendasika
 
 <DeepDive>
 
-#### Fitur apa yang membentuk visi arsitektur aplikasi _full stack_ dari tim React? {/*which-features-make-up-the-react-teams-full-stack-architecture-vision*/}
+#### Fitur apa yang membentuk visi arsitektur aplikasi full stack dari tim React? {/*which-features-make-up-the-react-teams-full-stack-architecture-vision*/}
 
 _Router_ aplikasi Next.js sepenuhnya mengimplementasi [spesifikasi React Server Components](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md). Hal ini memungkinkan Anda untuk dapat menggabungkan waktu _build_, _server-only_, dan komponen interaktif ke dalam satu pohon React.
 
